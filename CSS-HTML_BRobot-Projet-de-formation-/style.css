@@ -1,0 +1,970 @@
+
+
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+
+body {
+  align-items: center;
+  background-image: url("background.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+img.logo {
+  border-radius: 3px;
+}
+
+.flex-container0 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-container77 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-box0 {
+  margin: auto;
+  width: 1100px;
+  height: 45px;
+  background-color: #ffffff00;
+}
+
+
+nav.navo {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(25, 25, 25, 0);
+}
+
+ul.ulfoot {
+  margin-left: 30px;
+  margin-top: 12px;
+  height: 60%;
+  font-family: "Iceland", sans-serif;
+  font-style: oblique;
+  color: rgb(0, 0, 0);
+-webkit-text-stroke: 1px #F8F8F8;
+}
+
+nav.navi {
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgba(25, 25, 25, .0);
+}
+
+
+.image {
+  line-height: 30px;
+  margin-left: 0px;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.imagecentre {
+  height: auto;
+  max-width: 100%;
+}
+
+
+.media {
+  margin-top: 0px;
+  display: flex;
+  align-items: flex-start;
+}
+
+img {
+  border-radius: 100px 200px;
+}
+
+.media .content {
+  flex: 1;
+  padding: 0px;
+  padding-left: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 110px;
+  color: rgb(0, 0, 0);
+	-webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 5px 3px 3px rgb(124, 124, 124);
+  box-sizing: content-box;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  height: 120px;
+  overflow: hidden; 
+}
+
+.media .content4 {
+  flex: 1;
+  padding: 0px;
+margin-left: 110px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ font-size: 110px;
+  color: rgb(0, 0, 0);
+	-webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 5px 3px 3px rgb(255, 255, 255);
+  box-sizing: content-box;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  height: 120px;
+  overflow: hidden; 
+}
+
+
+.media .content2 {
+  flex: 1;
+  padding: 0px;
+  padding-left: 0px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 50px;
+ font-size: 110px;
+  color: rgb(0, 0, 0);
+	-webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 5px 3px 3px rgb(255, 255, 255);
+  box-sizing: content-box;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  height: 120px;
+  overflow: hidden; 
+}
+
+.media .content5 {
+  flex: 1;
+  padding: 0px;
+  padding-left: 0px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 130px;
+ font-size: 110px;
+  color: rgb(0, 0, 0);
+	-webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 5px 3px 3px rgb(255, 255, 255);
+  box-sizing: content-box;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  height: 120px;
+  overflow: hidden; 
+}
+
+.media .content6 {
+  flex: 1;
+  padding: 0px;
+  padding-left: 0px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 110px;
+ font-size: 110px;
+  color: rgb(0, 0, 0);
+	-webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 5px 3px 3px rgb(255, 255, 255);
+  box-sizing: content-box;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  height: 120px;
+  overflow: hidden; 
+}
+
+.media .content7 {
+  flex: 1;
+  padding: 0px;
+  padding-left: 0px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+margin-left: 50px;
+ font-size: 110px;
+  color: rgb(0, 0, 0);
+	-webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 5px 3px 3px rgb(255, 255, 255);
+  box-sizing: content-box;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  height: 120px;
+  overflow: hidden; 
+}
+
+.media .content8 {
+  flex: 1;
+  padding: 0px;
+  padding-left: 0px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 50px;
+ font-size: 110px;
+  color: rgb(0, 0, 0);
+	-webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 5px 3px 3px rgb(255, 255, 255);
+  box-sizing: content-box;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  height: 120px;
+  overflow: hidden; 
+}
+
+.media .content9 {
+  flex: 1;
+  padding: 0px;
+  padding-left: 0px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 50px;
+ font-size: 110px;
+  color: rgb(0, 0, 0);
+	-webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 5px 3px 3px rgb(255, 255, 255);
+  box-sizing: content-box;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  height: 120px;
+  overflow: hidden; 
+}
+
+.medias {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logofooter {
+  flex: 1;
+  padding: 0px;
+  padding-left: 0px;
+  padding-top: 35px;
+  font-size: 60px;
+  color: #ffffff;
+  box-sizing: content-box;
+  font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mediascontent {
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 180px;
+  margin-right: 20px;
+}
+
+
+
+.titre2 { 
+  color: rgb(0, 1, 56);
+    text-align: center;
+    font-size: 60px;
+    padding: 50px 0px 0px 0px;
+}
+
+.titre3 {
+    color: rgb(0, 1, 56);
+    text-align: center;
+    font-size: 60px;
+    padding: 50px 0px 0px 0px;
+    text-transform: uppercase;
+    height: 135px;
+  overflow: hidden;
+}
+
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 20px;
+  margin: 0 5px;
+}
+
+form {
+  margin-top: 40px;
+  margin-right: 25px;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding: 0px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+li a.active,
+li a:hover {
+  background: #707070;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  float: right;
+  line-height: 80px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  label.logo {
+    padding-left: 30px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  
+  }
+}
+
+@media (max-width: 890px) {
+  .checkbtn {
+    display: block;
+  }
+
+  label.logo {
+    font-size: 22px;
+  }
+
+  ul {
+    position: fixed;
+    width: 90%;
+    height: 50vh;
+    background: #2c3e50;
+    top: 65px;
+    left: -110%;
+    text-align: center;
+    transition: all .2s;
+  }
+  
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover {
+    background: none;
+    color: #444444;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+.flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.flex-container11 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-box1 {
+  margin-bottom: 30px;
+  margin-top: 5px;
+    width: 1100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+
+}
+
+@keyframes deroulement-rtl {
+  0% {
+    transform: translate3d(0,0,0);
+  }
+  100% {
+    transform: translate3d(-85%,0,0);
+  }
+}
+
+.deroulement-rtl {
+  max-width: auto;
+  height: 90px;
+  overflow: hidden;
+  box-shadow: 0 .25em .5em #00000000,inset 0 0 1em .25em #00000065;
+  padding-top: 2px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.808);
+
+}
+
+.deroulement-rtl > :first-child {
+  display: inline-block;
+  padding-right: 2em;
+  padding-left: 100%;
+  white-space: nowrap;
+  animation: deroulement-rtl 8s forwards;
+  font-family: "Iceland", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 80px;
+    color: rgb(180, 180, 180);
+    -webkit-text-stroke: 0px #ffffff;
+	text-shadow: 6px 5px 6px rgb(0, 0, 0);
+  
+}
+
+.flex-box2 {
+    width: 1100px;
+    height: 650px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 0px;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.flex-box22 {
+  width: 400px;
+  height: 650px;
+  background: linear-gradient(-45deg, #788cff00, #b4bfff);
+  color: rgb(26, 10, 10);
+  font-size: 25px;
+  text-align: center;
+  line-height: 0px;
+  border-radius: 10px;
+  margin-left: 0;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.flex-box48 {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(-45deg, #788cff00, #b4bfff);
+  color: rgb(26, 10, 10);
+  font-size: 25px;
+  text-align: center;
+  line-height: 0px;
+  border-radius: 10px;
+  margin: auto;
+  justify-content: center;
+  max-width: 100%;
+}
+.flex-box12 {
+  width: 1100px;
+  height: 600px;
+  background: linear-gradient(-45deg, #788cff00, #757575b6);
+  color: rgb(26, 10, 10);
+  font-size: 25px;
+  text-align: end;
+  line-height: 0px;
+  border-radius: 30px;
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-box13 {
+  width: 1100px;
+  height: 150px;
+  color: rgb(26, 10, 10);
+  font-size: 25px;
+  text-align: center;
+  line-height: 0px;
+  border-radius: 10px;
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.b1t1 {
+  width: 1100px;
+  height: 40px;
+  margin-top: 15px;
+  size: 20px;
+  font-weight: 800;
+  font-family: "Iceland", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+.b1t2 {
+  width: 1100px;
+  height: 40px;
+  text-align: center;
+  margin-top: 15px;
+  size: 20px;
+  font-weight: 800;
+  font-family: "Iceland", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  color: #5a5a5a;
+}
+.b1t3 {
+  width: 1100px;
+  height: 40px;
+  text-align: center;
+  margin-top: 15px;
+  size: 20px;
+  font-weight: 800;
+  font-family: "Iceland", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  color: #5a5a5a;
+}
+
+.b1t4 {
+  width: 1100px;
+  height: 40px;
+ text-align: center;
+  margin-top: 15px;
+  size: 20px;
+  font-weight: 800;
+  font-family: "Iceland", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  color: #5a5a5a;
+}
+
+.b1t5 {
+  width: 1100px;
+  height: 40px;
+text-align: center;
+  margin-top: 15px;
+  size: 20px;
+  font-weight: 800;
+  font-family: "Iceland", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  color: #5a5a5a;
+}
+
+.b1t6 {
+  width: 1100px;
+  height: 40px;
+text-align: center;
+  margin-top: 15px;
+  size: 20px;
+  font-weight: 800;
+  font-family: "Iceland", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  color: #5a5a5a;
+}
+
+#text {
+  width: 300px;
+  height: 40px;
+  font-weight: 600;
+    font-family: "Iceland", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+
+}
+
+#textadress {
+  width: 420px;
+  height: 40px;
+  font-weight: 600;
+    font-family: "Iceland", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+
+}
+
+#textcomment {
+  width: 500px;
+  height: 40px;
+  font-weight: 600;
+    font-family: "Iceland", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+
+}
+
+#envoi {
+  width: 200px;
+  height: 40px;
+  font-weight: 800;
+  font-family: "Iceland", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  border-radius: 30px;
+  
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #868686a9;
+    border-radius: 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: rgba(151, 151, 151, 0.527);
+    font-size: 1em;
+    font-weight: 800;
+    font-family: "Iceland", sans-serif;
+    font-style: normal;
+    line-height: 80px;
+
+  }
+  button:hover {       
+    background: #868686;
+    color: white;
+    font-size: 1em;
+  }
+
+
+.flex-container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.flex-box3 {
+    width: 300px;
+    height: 480px;
+    background-color: #00000000;
+    color: rgb(26, 10, 10);
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+  margin-top: 100px;
+
+}
+
+.flex-box33 {
+  width: 500px;
+  height: 550px;
+
+  border-radius: 100px 30px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 100px;
+
+}
+
+.page2 {
+  margin-top: 30px;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(129, 129, 129);
+  -webkit-text-stroke: 0px #555555;
+	text-shadow: 6px 5px 3px rgb(124, 124, 124);
+}
+
+a { 
+  color: rgb(104, 104, 104);
+	text-shadow: 7px 7px 5px rgb(255, 255, 255);
+}
+
+
+.condition {
+  margin-right: 130px;
+  margin-top: 200px;
+  font-family: "Iceland", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+
+}
+
+.flex-box44 {
+  width: 500px;
+  height: 550px;
+  background: linear-gradient(-45deg, #a5a5a544, #a09d9a);
+  border-radius: 100px 30px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 100px;
+
+}
+
+.mot1 {
+    font-family: "Iceland", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 6px 5px 3px rgb(124, 124, 124);
+  
+  }
+
+  .mot10 {
+    font-family: "Iceland", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 6px 5px 3px rgb(124, 124, 124);
+  
+  }
+
+  .mot11 {
+    font-family: "Iceland", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    margin-top: 30px;
+margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 6px 5px 3px rgb(124, 124, 124);
+  }
+
+.mot2 {
+    font-family: "Iceland", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 6px 5px 3px rgb(124, 124, 124);
+  }
+
+  .mot20 {
+    font-family: "Iceland", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 6px 5px 3px rgb(124, 124, 124);
+  }
+
+.mot3 {
+    font-family: "Iceland", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 6px 5px 3px rgb(124, 124, 124);
+  }
+
+  .mot30 {
+    font-family: "Iceland", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0px #F8F8F8;
+	text-shadow: 6px 5px 3px rgb(124, 124, 124);
+  }
+
+.flex-box4 {
+    width: 300px;
+    height: 480px;
+    background-color: #00000000;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+  margin-top: 100px;
+
+}
+
+
+.flex-box5 {
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 1100px;
+    height: 150px;
+  overflow: hidden;
+    background-color: #ffffff77;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: rgb(165, 165, 165);
+    -webkit-text-stroke: 0px #ffffff;
+	text-shadow: 6px 5px 5px rgb(122, 122, 122);
+}
+
+.flex-box55 {
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  height: 150px;
+overflow: hidden;
+  background-color: #ffffff77;
+  font-size: 40px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  color: rgb(165, 165, 165);
+  -webkit-text-stroke: 0px #ffffff;
+text-shadow: 6px 5px 5px rgb(122, 122, 122);
+}
+
+.flex-box555 {
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 1100px;
+  height: 200px;
+overflow: hidden;
+  background-color: #ffffff77;
+  font-size: 40px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  color: rgb(165, 165, 165);
+  -webkit-text-stroke: 0px #ffffff;
+text-shadow: 6px 5px 5px rgb(122, 122, 122);
+}
+
+.flex-box8 {
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 1100px;
+  height: 260px;
+  background-color: #ffffff77;
+  color: rgb(26, 10, 10);
+  font-size: 40px;
+  text-align: center;
+  line-height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: rgb(165, 165, 165);
+  -webkit-text-stroke: 0px #ffffff;
+text-shadow: 6px 5px 5px rgb(122, 122, 122);
+}
+
+
+.flex-box6 {
+    width: 300px;
+    height: 480px;
+    background-color: #ffffff00;
+    color: rgb(26, 10, 10);
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+  margin-top: 100px;
+
+
+}
+
+.bouton1 {
+  color: #04024b;
+}
+
+footer {
+    background-color: rgba(25, 25, 25, .0);
+    justify-content: right;
+    padding: 0px;
+    color: #ffffff;
+  }
+
+.foot {
+    justify-content: left;
+}
+
+.imagefooter {
+    line-height: 0px;
+    justify-content: left;
+}
+
+
+ul.ulfoot1 {
+    margin-left: 10px;
+    padding-top: 60px;
+    font-family: "Iceland", sans-serif;
+    font-style: oblique;
+    color: white;
+	-webkit-text-stroke: 1px #ffffff;
+	text-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+
+.imagerobot img:hover{
+  width: 500px;
+  transition: transform .1s;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+p {
+  font-family: "Iceland", sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 40px;
+    color: #016b0f;
+}
+
+p.tt {
+  font-family: "Iceland", sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+button.rr {
+  width: 110px;
+    height: 90px;
+}
