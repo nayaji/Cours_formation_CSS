@@ -1,0 +1,230 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    display: grid;
+    gap: 10px; /* Espace entre les éléments du grid */
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////
+
+/* Header */
+header {
+    background-color: #f8b0b0; /* Couleur de fond */
+    padding: 20px; /* Espace intérieur */
+}
+
+.containerheader {
+    max-width: 1110px;
+    height: 184px;
+    margin: 0 auto; /* Centrer la section */
+    display: flex;
+    justify-content: space-between; /* Espacement entre le logo et le menu */
+    align-items: center; /* Aligner verticalement */
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centrer la section */
+}
+
+@media  (max-width: 768px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .containerheader {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////////////
+
+
+/* Main */
+main {
+    background-color: #b0c8f8; /* Couleur de fond */
+    padding: 20px;
+}
+
+/* Container principal en grand écran */
+main .container {
+    max-width: 1200px;
+    width: 1110px; /* Largeur fixe pour grand écran */
+    height: 513px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 10px; /* Espacement entre les boîtes */
+}
+
+/* Box 11 s'étend sur 2 colonnes sur grand écran */
+#box11 {
+    grid-column: span 2; /* S'étend sur 2 colonnes */
+    display: grid;
+}
+
+#box11-inner {
+    background-color: #d3d3d3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Image à l'intérieur de Box 11 */
+#box11-inner img {
+    width: 100%; /* L'image prend toute la largeur de la boîte */
+    height: 100%; /* L'image prend toute la hauteur de la boîte */
+    object-fit: cover; /* L'image couvre entièrement la boîte sans être déformée */
+}
+
+/* Box 22 et Box 44 prennent chacune une colonne */
+#box22 {
+    grid-column: span 1; /* Position par défaut pour Box 22 et Box 44 */
+    grid-row: span 2; /* S'étend sur 2 lignes pour prendre toute la hauteur */
+    background-color: #d3d3d3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#box44 {
+    grid-column: span 1; /* Position par défaut pour Box 22 et Box 44 */
+    background-color: #d3d3d3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Box 33 prend une colonne */
+#box33 {
+    grid-column: span 1; /* Position par défaut pour Box 33 */
+    background-color: #d3d3d3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Responsive Design pour petits écrans (max-width: 768px) */
+@media (max-width: 768px) {
+    main .container {
+        width: 100%; /* Largeur de 100% pour les petits écrans */
+        height: auto; /* Hauteur automatique */
+        margin: 0 auto; /* Centrer le conteneur */
+        display: grid;
+        grid-template-columns: 1fr; /* 1 colonne pour les petits écrans */
+        grid-gap: 10px; /* Espace entre les boîtes */
+    }
+
+    /* Affichage des boxes 11, 33 et 44 sur la 1ère page */
+    #box11 {
+        grid-row: 1; /* Place Box 11 en premier */
+        width: 100%; /* Largeur de 100% pour les petits écrans */
+        height: 300px; /* Hauteur de Box 11 */
+    }
+
+    #box33 {
+        grid-row: 2; /* Place Box 33 en deuxième */
+        width: 100%; /* Largeur de 100% pour les petits écrans */
+        height: 156px; /* Hauteur de Box 33 */
+    }
+
+    #box44 {
+        grid-row: 3; /* Place Box 44 en troisième */
+        width: 100%; /* Largeur de 100% pour les petits écrans */
+        height: 180px; /* Hauteur de Box 44 */
+    }
+
+    /* Box 22 sous Box 44, et afficher Box 22 après Box 44 */
+    #box22 {
+        grid-row: 4; /* Place Box 22 sous Box 44 */
+        width: 100%; /* Largeur de 100% pour les petits écrans */
+        height: 489px; /* Hauteur de Box 22 */
+        display: block; /* Affiche Box 22 */
+    }
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////
+
+
+
+/* Section */
+section {
+    background-color: #b0f8b0; /* Couleur de fond */
+    padding: 20px;
+}
+
+/* Container section */
+section .containersection {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 10px;
+    justify-items: center; /* Centrer les éléments horizontalement */
+    align-items: center; /* Centrer les éléments verticalement */
+}
+
+/* Chaque div dans le container section */
+section .containersection > div {
+    display: grid;
+    grid-template-columns: 100px 200px; /* 1ère div de 100px, 2ème div de 200px */
+    gap: 10px;
+    justify-items: center; /* Centrer horizontalement dans chaque sous-grille */
+    align-items: center; /* Centrer verticalement dans chaque sous-grille */
+}
+
+/* Styles pour les divs individuels dans chaque sous-grille */
+#box5, #box7, #box9 {
+    background-color: #d3d3d3; /* Couleur de fond des boîtes */
+    padding: 10px; /* Espace intérieur */
+    border: 1px solid #ccc; /* Bordure pour les boîtes */
+    text-align: center; /* Centrer le texte */
+    width: 100px; /* Largeur fixe de 100px */
+    height: 100px; /* Hauteur fixe de 100px */
+}
+
+#box6, #box8, #box10 {
+    background-color: #d3d3d3; /* Couleur de fond des boîtes */
+    padding: 10px; /* Espace intérieur */
+    border: 1px solid #ccc; /* Bordure pour les boîtes */
+    text-align: center; /* Centrer le texte */
+    width: 200px; /* Largeur fixe de 200px */
+    height: 100px; /* Hauteur fixe de 100px */
+}
+
+/* Responsive Design pour petits écrans (max-width: 768px) */
+@media (max-width: 768px) {
+    section .containersection {
+        width: 100%; /* Largeur de 100% pour les petits écrans */
+        grid-template-columns: 1fr; /* 1 colonne pour les petits écrans */
+        margin: 0 auto; /* Centrer le conteneur */
+        justify-items: center; /* Centrer horizontalement */
+        align-items: center; /* Centrer verticalement */
+    }
+
+    /* Réduire la taille des boîtes pour petits écrans */
+    section .containersection > div > div {
+        width: 100%; /* Utiliser toute la largeur de l'écran pour chaque boîte */
+        height: auto; /* Hauteur automatique pour s'adapter */
+    }
+}
